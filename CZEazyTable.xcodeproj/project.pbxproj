@@ -15,6 +15,7 @@
 		180361411C0734E5006DAB39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1803613F1C0734E5006DAB39 /* LaunchScreen.storyboard */; };
 		1803614C1C0734E5006DAB39 /* CZEazyTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1803614B1C0734E5006DAB39 /* CZEazyTableTests.m */; };
 		180361571C0734E5006DAB39 /* CZEazyTableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180361561C0734E5006DAB39 /* CZEazyTableUITests.m */; };
+		180361661C0737AD006DAB39 /* CZEazyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180361651C0737AD006DAB39 /* CZEazyTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		180361521C0734E5006DAB39 /* CZEazyTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CZEazyTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		180361561C0734E5006DAB39 /* CZEazyTableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZEazyTableUITests.m; sourceTree = "<group>"; };
 		180361581C0734E5006DAB39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180361641C0737AD006DAB39 /* CZEazyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CZEazyTableViewController.h; path = CZEazyTable/CZEazyTableViewController.h; sourceTree = "<group>"; };
+		180361651C0737AD006DAB39 /* CZEazyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CZEazyTableViewController.m; path = CZEazyTable/CZEazyTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				180361351C0734E5006DAB39 /* AppDelegate.m */,
 				180361371C0734E5006DAB39 /* ViewController.h */,
 				180361381C0734E5006DAB39 /* ViewController.m */,
+				180361641C0737AD006DAB39 /* CZEazyTableViewController.h */,
+				180361651C0737AD006DAB39 /* CZEazyTableViewController.m */,
 				1803613A1C0734E5006DAB39 /* Main.storyboard */,
 				1803613D1C0734E5006DAB39 /* Assets.xcassets */,
 				1803613F1C0734E5006DAB39 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 				180361391C0734E5006DAB39 /* ViewController.m in Sources */,
 				180361361C0734E5006DAB39 /* AppDelegate.m in Sources */,
 				180361331C0734E5006DAB39 /* main.m in Sources */,
+				180361661C0737AD006DAB39 /* CZEazyTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
